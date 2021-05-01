@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Google Search with different keywords]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Regression(failed)">
+    <classes>
+      <class name="quickstart.Tests.DemoTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="GoogleSearch_automationScript"/>
+          <include name="endTest"/>
+          <include name="startTestSuite"/>
+          <include name="GoogleSearch_Facebook"/>
+          <include name="endTestSuite"/>
+          <include name="GoogleSearch_Twitter"/>
+          <include name="GoogleSearch_LinkedIn"/>
+        </methods>
+      </class> <!-- quickstart.Tests.DemoTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Search with different keywords] -->

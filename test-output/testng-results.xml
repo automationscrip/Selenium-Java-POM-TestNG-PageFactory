@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-01T17:53:16Z" name="Testing Google Search with different keywords" finished-at="2021-05-01T17:53:28Z" duration-ms="11887">
+    <groups>
+    </groups>
+    <test started-at="2021-05-01T17:53:16Z" name="Page Object Model using By and TestNG" finished-at="2021-05-01T17:53:28Z" duration-ms="11887">
+      <class name="quickstart.Tests.DemoTest">
+        <test-method is-config="true" signature="startTestSuite()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:09Z" name="startTestSuite" finished-at="2021-05-01T23:23:16Z" duration-ms="7328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestSuite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:16Z" name="startTest" finished-at="2021-05-01T23:23:17Z" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quickstart.Tests.DemoTest.GoogleSearch_Facebook() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="GoogleSearch_Facebook()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:17Z" name="GoogleSearch_Facebook" finished-at="2021-05-01T23:23:20Z" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch_Facebook -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:20Z" name="endTest" finished-at="2021-05-01T23:23:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:20Z" name="startTest" finished-at="2021-05-01T23:23:20Z" duration-ms="537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quickstart.Tests.DemoTest.GoogleSearch_LinkedIn() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="GoogleSearch_LinkedIn()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:20Z" name="GoogleSearch_LinkedIn" finished-at="2021-05-01T23:23:22Z" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch_LinkedIn -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:22Z" name="endTest" finished-at="2021-05-01T23:23:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:22Z" name="startTest" finished-at="2021-05-01T23:23:23Z" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quickstart.Tests.DemoTest.GoogleSearch_Twitter() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="GoogleSearch_Twitter()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:23Z" name="GoogleSearch_Twitter" finished-at="2021-05-01T23:23:25Z" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch_Twitter -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:25Z" name="endTest" finished-at="2021-05-01T23:23:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:25Z" name="startTest" finished-at="2021-05-01T23:23:26Z" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void quickstart.Tests.DemoTest.GoogleSearch_automationScript() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="GoogleSearch_automationScript()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:26Z" name="GoogleSearch_automationScript" finished-at="2021-05-01T23:23:28Z" duration-ms="1941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch_automationScript -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:28Z" name="endTest" finished-at="2021-05-01T23:23:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="endTestSuite()[pri:0, instance:quickstart.Tests.DemoTest@7ee955a8]" started-at="2021-05-01T23:23:28Z" name="endTestSuite" finished-at="2021-05-01T23:23:29Z" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestSuite -->
+      </class> <!-- quickstart.Tests.DemoTest -->
+    </test> <!-- Page Object Model using By and TestNG -->
+  </suite> <!-- Testing Google Search with different keywords -->
+</testng-results>
