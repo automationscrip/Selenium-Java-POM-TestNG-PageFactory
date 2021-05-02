@@ -135,16 +135,15 @@ The first thing a framework should be able to handle is to launch the browser an
 
 3. ### Page classes
 	We create page classes for each of the pages of our application. 
-	
-		> `src/main/java> quickstart.pages> GoogleSearchPage.java`
+	`src/main/java> quickstart.pages> GoogleSearchPage.java`
 
 	Each page class contains two components as below.
-		1. Locators are written as 
-				`@FindBy(xpath="//div[@class='g']//h3/span")
-		WebElement firstResult;`
-		2. Page class methods for tests steps
-		3. Page class constructor initializes the webelements through 
-			 `PageFactory.initElements(driver, this);`
+	1. Locators are written as 
+	`@FindBy(xpath="//div[@class='g']//h3/span")`
+	`WebElement firstResult;`
+	2. Page class methods for tests steps
+	3. Page class constructor initializes the webelements through 
+	`PageFactory.initElements(driver, this);`
 
  5. ### Run tests through testng.xml
 	 If you want to run your tests through *testng.xml* , You can perform following steps.
