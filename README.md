@@ -169,19 +169,3 @@ The first thing a framework should be able to handle is to launch the browser an
 	 2. Class name with text *Test* in the beginneing or end
 	 3. Test methods with annotation @test
 
-
-## Flow Chart
-
-```mermaid
-graph LR
-U((User))-- Executes the tests-->E(testng.xml)
-E(testng.xml) --> F
-F-->R((html Result))
-A[Page Objects] -- GoogleSearchPage --> F[Test Class]
-B[Page Objects] -- GoogleSearchResultPage --> F[Test Class]
-C(Reporting) --Reporting --> F[Test Class]
-D(Test Data) --Read Test Data--> F[Test Class]
-G(Utility)--Utility functions-->F
-
-```
-
