@@ -94,12 +94,12 @@ The first thing a framework should be able to handle is to launch the browser an
  2. ### Project structure
 	The automation framework is built to address following 4 major requirements through it's components.
 
-		 1. **Setup the WebDriver** to automate actions on browser.
-		 2. **Read test data** from test data file(formats such as .xls, .json, .xml etc.)
-		 3. **Page Classes** for each page containing locators of their respective WebElements and methods to operate on them.		 
-		 4. **Test Classes** containing Test cases in the form of methods with annotation @Test.
-		 5. **Execution control**- We are executing our tests through *testng.xml*. It can be other options such as through mvn test or command line.
-		 6. **Create a readable html report** after test execution.
+	1. **Setup the WebDriver** to automate actions on browser.
+	2. **Read test data** from test data file(formats such as .xls, .json, .xml etc.)
+	3. **Page Classes** for each page containing locators of their respective WebElements and methods to operate on them.		 
+	4. **Test Classes** containing Test cases in the form of methods with annotation @Test.
+	5. **Execution control**- We are executing our tests through *testng.xml*. It can be other options such as through mvn test or command line.
+	6. **Create a readable html report** after test execution.
 		 
 3. ### Test Classes		
 	We have a class *DemoTest.java* under *src/test/java/quickstart.Tests*. 
