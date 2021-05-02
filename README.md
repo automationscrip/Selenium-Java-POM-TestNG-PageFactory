@@ -137,13 +137,13 @@ The first thing a framework should be able to handle is to launch the browser an
 	`src/main/java> quickstart.pages> GoogleSearchPage.java`
 
 	Each page class contains two components as below.
-	1. Locators are written as 
+	1. Locators are written as below
 	```java
 		@FindBy(xpath="//div[@class='g']//h3/span")
 		WebElement firstResult;
 	```
 	2. Page class methods for tests steps
-	3. Page class constructor initializes the webelements through 
+	3. Page class constructor sets the driver and initializes the webelements through 
 	```java
 		PageFactory.initElements(driver, this);
 	```
