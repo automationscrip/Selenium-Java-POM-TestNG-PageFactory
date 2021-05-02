@@ -107,18 +107,17 @@ The first thing a framework should be able to handle is to launch the browser an
 	
 	1. **@BeforeSuite**- 
 		 - Setup the chromedriver binaries using below: 
-			> WebDriverManager.chromedriver().setup();				
+			`WebDriverManager.chromedriver().setup();`			
 		 - Initialize the WebDriver *driver*
 		 - Initialize the Logger *logger*
 		 - loads the test data file and initialize it in *testdata*
 		 
 	2. **@BeforeMethod**- 			
 		 - Create a test in Extent Report before each test.
-		 - Navigate a url	and maximize the window.
+		 - Navigate a urland maximize the window.
 
 	3. **@Test**- 
 		
-
 		 - Initialize the page objects.
 		 - Validation steps by calling the page objects.
 
@@ -139,8 +138,8 @@ The first thing a framework should be able to handle is to launch the browser an
 
 	Each page class contains two components as below.
 	1. Locators are written as 
-	`@FindBy(xpath="//div[@class='g']//h3/span")`
-	`WebElement firstResult;`
+		`@FindBy(xpath="//div[@class='g']//h3/span")`
+		`WebElement firstResult;`
 	2. Page class methods for tests steps
 	3. Page class constructor initializes the webelements through 
 	`PageFactory.initElements(driver, this);`
