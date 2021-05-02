@@ -31,9 +31,8 @@ Search a keyword on google and validate if the keyword appears as the first resu
 	| POI-OOXML|5.0.0| To read and write .xlsx excel files (e.g. test data files)
 
 
-	**
-	pom.xml**
-
+	**pom.xml**
+```xml
 	<dependencies>
 
 		<dependency>
@@ -78,6 +77,7 @@ Search a keyword on google and validate if the keyword appears as the first resu
 		</dependency>
 
 	</dependencies>
+``` 
 
 ## How to use
 The first thing a framework should be able to handle is to launch the browser and navigate a given url.
@@ -138,11 +138,15 @@ The first thing a framework should be able to handle is to launch the browser an
 
 	Each page class contains two components as below.
 	1. Locators are written as 
-		`@FindBy(xpath="//div[@class='g']//h3/span")`
-		`WebElement firstResult;`
+	```java
+		@FindBy(xpath="//div[@class='g']//h3/span")
+		WebElement firstResult;
+	```
 	2. Page class methods for tests steps
 	3. Page class constructor initializes the webelements through 
-	`PageFactory.initElements(driver, this);`
+	```java
+		PageFactory.initElements(driver, this);
+	```
 
  5. ### Run tests through testng.xml
 	 If you want to run your tests through *testng.xml* , You can perform following steps.
